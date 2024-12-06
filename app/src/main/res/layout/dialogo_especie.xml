@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RadioGroup
+        android:id="@+id/rg_especie"
+        android:layout_width="match_parent"
+        android:layout_height="270dp"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/rb_elfo"
+            android:layout_width="138dp"
+            android:layout_height="wrap_content"
+            android:baselineAligned="false"
+            android:checked="false"
+            android:text="@string/rb_elfo" />
+
+        <RadioButton
+            android:id="@+id/rb_enano"
+            android:layout_width="138dp"
+            android:layout_height="wrap_content"
+            android:baselineAligned="false"
+            android:checked="false"
+            android:text="@string/rb_enano" />
+
+        <RadioButton
+            android:id="@+id/rb_hobbit"
+            android:layout_width="137dp"
+            android:layout_height="wrap_content"
+            android:baselineAligned="false"
+            android:checked="false"
+            android:text="@string/rb_hobbit" />
+
+        <RadioButton
+            android:id="@+id/rb_humano"
+            android:layout_width="138dp"
+            android:layout_height="wrap_content"
+            android:baselineAligned="false"
+            android:checked="false"
+            android:text="@string/rb_humano" />
+
+    </RadioGroup>
+
+</LinearLayout>

@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">My Avatar</string>
+    <string name="txtTitulo">Avatar</string>
+    <string name="editNombre">Nombre</string>
+    <string name="img_avatar">Imagen Avatar</string>
+    <string name="txt_vida">Vida</string>
+    <string name="txt_magia">Magia</string>
+    <string name="txt_fuerza">Fuerza</string>
+    <string name="txt_velocidad">Velocidad</string>
+    <string name="txt_nombre_elegido">Nombre elegido...</string>
+    <string name="btn_cerrar">Cerrar app</string>
+    <string name="generar_avatar">generar avatar</string>
+    <string name="avatar">avatar</string>
+    <string name="profesion">profesion</string>
+    <string name="vida">Vida:</string>
+    <string name="magia">Magia:</string>
+    <string name="fuerza">Fuerza:</string>
+    <string name="velocidad">Velocidad:</string>
+    <string name="limpiar">limpiar</string>
+
+    <string name="rg_sexo">Sexo</string>
+    <string name="rb_hombre">HOMBRE</string>
+    <string name="rb_mujer">MUJER</string>
+    <string-array name="sexo">
+        <item>@string/rb_hombre</item>
+        <item>@string/rb_mujer</item>
+    </string-array>
+
+    <string name="rg_especie">Especie</string>
+    <string name="rb_elfo">ELFO</string>
+    <string name="rb_enano">ENANO</string>
+    <string name="rb_hobbit">HOBBIT</string>
+    <string name="rb_humano">HUMANO</string>
+
+    <string-array name="especie">
+        <item>@string/rb_elfo</item>
+        <item>@string/rb_enano</item>
+        <item>@string/rb_hobbit</item>
+        <item>@string/rb_humano</item>
+    </string-array>
+
+    <string name="rg_profesion">Profesión</string>
+    <string name="rb_arquero">ARQUERO</string>
+    <string name="rb_guerrero">GUERRERO</string>
+    <string name="rb_mago">MAGO</string>
+    <string name="rb_herrero">HERRERO</string>
+    <string name="rb_minero">MINERO</string>
+    <string-array name="profesion">
+        <item>Arquero</item>
+        <item>Guerrero</item>
+        <item>Mago</item>
+        <item>Herrero</item>
+        <item>Minero</item>
+    </string-array>
+
+
+</resources>
